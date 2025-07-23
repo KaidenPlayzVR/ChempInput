@@ -3,6 +3,12 @@ Input system for Chemp Physics Modding
 
 # How to use
 
+- Add the ChempInput.dll to your references
+ 
+- In any scripts that may use ChempInput, add "using ChempInput;" at the top of your script (Remove quotes)
+ 
+- Include the ChempInput.dll in your mod release
+
 # Chemp Input Functions
 # Floats
 leftTriggerFloat - returns the left hand's trigger float (0.0 to 1.0)

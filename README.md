@@ -9,7 +9,8 @@ Input system for Chemp Physics Modding
  
 - Include the ChempInput.dll in your mod release
 
-# Chemp Input Functions
+# Chemp Input Variables
+## Refer to any functions with ChempInput.ChempInput.variablename
 # Floats
 leftTriggerFloat - returns the left hand's trigger float (0.0 to 1.0)
 
@@ -58,7 +59,7 @@ public class ExampleMod : MelonMod
 {
     public override void OnUpdate()
     {
-        if (ChempInput.leftTriggerDown)
+        if (ChempInput.ChempInput.leftTriggerDown)
             MelonLogger.Msg("Left trigger pressed!");
     }
 } 

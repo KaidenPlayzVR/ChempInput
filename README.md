@@ -51,7 +51,7 @@ leftThumbstickVector - returns the Vector2 value of left hand thumbstick (primar
 # Example Useage
 
 ```csharp
-using ChempInput;
+using chempInput;
 using MelonLoader;
 using UnityEngine;
 
@@ -59,7 +59,7 @@ public class ExampleMod : MelonMod
 {
     public override void OnUpdate()
     {
-        if (ChempInput.ChempInput.leftTriggerDown)
+        if (ChempInput.leftTriggerDown)
             MelonLogger.Msg("Left trigger pressed!");
     }
 } 

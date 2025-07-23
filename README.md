@@ -1,6 +1,8 @@
 # ChempInput
 Input system for Chemp Physics Modding
 
+# **REQUIRES NET 4.8 OR ABOVE!**
+
 # How to use
 
 - Add the ChempInput.dll to your references

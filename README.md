@@ -47,6 +47,20 @@ leftThumbstickVector - returns the Vector2 value of left hand thumbstick (primar
 
  rightThumbstickVector - returns the Vector2 value of right hand thumbstick (secondary 2D axis)
 
+# Example Useage
 
+```csharp
+using ChempInput;
+using MelonLoader;
+using UnityEngine;
 
+public class ExampleMod : MelonMod
+{
+    public override void OnUpdate()
+    {
+        if (ChempInput.leftTriggerDown)
+            MelonLogger.Msg("Left trigger pressed!");
+    }
+} 
+```
 ## Happy modding!
